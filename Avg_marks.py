@@ -48,30 +48,3 @@
 
 
 
-# Votes   = ["Boby",'Carle','Boby','Rahul','Raja','Boby','Raja','Boby','Anand','Anand','Classi','Classi','Raja',"Hero",'Rahul','Classi']
-# Canditate = []
-# votes = []
-#
-# for dat in Votes:
-#     if dat not in Canditate:
-#         Canditate.append(dat)
-#
-#     else:
-#         Canditate_index = Canditate.index(dat)
-#         print(Canditate_index)
-#         votes[Canditate_index] = votes[Canditate_index]+1
-#
-# Max = 0
-# Max_can = []
-# for i in range(len(votes)):
-#     if votes[i]>Max:
-#         Max_can=votes[i]
-#         candidate = Canditate[i]
-#         Max_can.append(candidate)
-#     elif votes[i]==Max:
-#         candidate = Canditate[i]
-#         Max_can.append((candidate))
-# print("Highest votes goes to :")
-# print(Max_can,sep='\n')
-# print("Each person has "+str(Max_can)+'Votes')
-#
